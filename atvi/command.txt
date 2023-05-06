@@ -1,0 +1,7 @@
+Compilar
+
+tsc -p tsconfig.json
+//Inicializa todas as variáveis e listas vazias
+
+Rodar
+node src/out/app/main.js

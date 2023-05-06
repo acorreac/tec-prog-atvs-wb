@@ -43,4 +43,11 @@ export default class Cliente {
     public get getServicosConsumidos(): Array<Servico> {
         return this.servicosConsumidos
     }
+
+    public adicionarTelefone(telefone: Telefone): void {
+        this.telefones.push(telefone)
+    }
+    public adicionarRg(rg: RG): void {
+        this.rgs.push(rg)
+    }
 }
