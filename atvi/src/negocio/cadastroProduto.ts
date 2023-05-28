@@ -1,6 +1,5 @@
 import Entrada from "../io/entrada";
 import Produto from "../modelo/produto";
-import CPF from "../modelo/cpf";
 import Cadastro from "./cadastro";
 
 export default class CadastroProduto extends Cadastro {
@@ -17,5 +16,9 @@ export default class CadastroProduto extends Cadastro {
         let produto = new Produto(nome);
         this.produtos.push(produto)
         console.log(`\nProduto Cadastrado com Sucesso! :)\n`);
+    }
+
+    public insertProduto(produto: string): void{
+        this.produtos.push(new Produto(produto))
     }
 }

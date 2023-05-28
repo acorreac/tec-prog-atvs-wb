@@ -1,6 +1,5 @@
 import Entrada from "../io/entrada";
 import Servico from "../modelo/servico";
-import CPF from "../modelo/cpf";
 import Cadastro from "./cadastro";
 
 export default class CadastroServico extends Cadastro {

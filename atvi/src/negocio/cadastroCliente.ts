@@ -1,6 +1,7 @@
 import Entrada from "../io/entrada";
 import Cliente from "../modelo/cliente";
 import CPF from "../modelo/cpf";
+import Genero from "../modelo/genero";
 import RG from "../modelo/rg";
 import Telefone from "../modelo/telefone";
 import Cadastro from "./cadastro";
@@ -17,7 +18,8 @@ export default class CadastroCliente extends Cadastro {
         console.log(`\nInício do cadastro do cliente`);
         let nome = this.entrada.receberTexto(`Por favor informe o nome do cliente: `)
         let nomeSocial = this.entrada.receberTexto(`Por favor informe o nome social do cliente: `)
-        let genero = this.entrada.receberTexto(`Por favor informe seu gênero: `)
+        let gen = this.entrada.receberTexto(`Por favor informe seu gênero: `)
+        let genero = new Genero(gen)
         
         let valorCpf = this.entrada.receberTexto(`Por favor informe o número do cpf: `)
         let data = this.entrada.receberTexto(`Por favor informe a data de emissão do cpf, no padrão dd/mm/yyyy: `)
@@ -37,10 +39,8 @@ export default class CadastroCliente extends Cadastro {
         let dataEmissaoRG = new Date(ano, mes, dia)
         let rg = new RG(valorRG, dataEmissaoRG)
 
-        
-        let cliente = new Cliente(nome, nomeSocial, genero, cpf)
+        let cliente = new Cliente(nome, nomeSocial, cpf)
         this.clientes.push(cliente)
-
 
         let tel = this.entrada.receberTexto(`Por favor informe o número de telefone: `)
         let partesTel = tel.split('-')
@@ -48,10 +48,15 @@ export default class CadastroCliente extends Cadastro {
         let numero = partesTel[1].valueOf()
         let telefone = new Telefone(ddd, numero)
 
-        cliente.adicionarTelefone(telefone)
-        cliente.adicionarRg(rg)
+        cliente.postTelefone(telefone)
+        cliente.postRg(rg)
+        cliente.postGenero(genero)
 
         console.log(`\nCadastro concluído :)\n`);
     }
+
+    // public insertCliente(): void{
+
+    // }
 }
 
