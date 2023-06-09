@@ -1,0 +1,16 @@
+.button-home {
+    padding: 2em 3em;
+    border-radius: 1.5em;
+    border: none;
+    text-decoration: none;
+    color: #141212;
+    background-color: #f57cb5;
+    margin: 1.3em 1em;
+    font-size: 20px;
+    font-weight: bold;
+    filter: drop-shadow(3px 5px 3px rgb(101, 18, 66));
+}
+
+.button-home:hover {
+    background-color: #ae4978;
+}

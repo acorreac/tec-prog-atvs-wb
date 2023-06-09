@@ -1,0 +1,120 @@
+.pages {
+    background-color: #f6e0f4;
+    min-height: 94.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    margin-left: 40%;
+}
+
+.forms-ser {
+    margin-top: 1.5%;
+    margin-left: 25%;
+    font-weight: bold;
+    filter: drop-shadow(3px 5px 3px rgb(101, 18, 66));
+}
+
+.forms-ser2 {
+    background-color: #ffd0df;
+    width: fit-content;
+    padding: .5em 2em;  
+    border-radius: 2em;
+}
+
+.custom-ser, .custom-ser2 {
+    margin-top: .5em;
+}
+
+.custom-ser2 input {
+    width: 5em;
+    font-size: larger;
+    margin-top: .4em;
+    height: 1.3em;
+    border-radius: 2em;
+    border: 1px solid #615e5e;
+}
+
+.custom-ser input {
+    width: 30em;
+    margin-top: .4em;
+    font-size: larger;
+    height: 1.5em;
+    border-radius: 2em;
+    border: 1px solid #615e5e;
+}
+
+
+.custom-btn {
+    width: 10em;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 40%;
+    background-color: #f57cb5;
+    padding: .3em 1em;
+    border-radius: 10em;
+    border: none;
+    cursor: pointer;
+}
+
+.required-asterisk {
+    color: red;
+  }
+  
+
+
+@media only screen and (max-width: 560px) {
+    .forms-ser {
+        margin-left: 7%;
+    }
+    .titulo {
+        margin-left: 25%;
+    }
+    .forms-ser2 {
+        background-color: #ffd0df;
+        width: fit-content;
+        padding: .9em 1.5em;  
+        border-radius: 1.7em;
+    }
+    .custom-ser input {
+        width: 20em;
+    }
+    .gender-section label {
+        margin-right: .3em;
+    }
+    .custom-ser, .custom-ser2 {
+        margin-top: .5em;
+    }
+    
+    .custom-ser2 input {
+        width: 5em;
+        font-size: x-large;
+        margin-top: .4em;
+        height: 1.2em;
+        border-radius: 2em;
+        border: 1px solid #615e5e;
+    }
+    
+    .custom-ser input {
+        width: 15em;
+        margin-top: .4em;
+        font-size: x-large;
+        height: 1.2em;
+        border-radius: 2em;
+        border: 1px solid #615e5e;
+    }
+    .custom-btn {
+        width: 10em;
+        font-size: larger;
+        font-weight: bold;
+        margin-top: 1em;
+        margin-left: 49%;
+        background-color: #f57cb5;
+        padding: .3em 1em;
+        border-radius: 10em;
+        border: 2px solid #8c8c8c;
+        cursor: pointer;
+    }
+}
