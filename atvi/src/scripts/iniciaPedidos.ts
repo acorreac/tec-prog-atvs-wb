@@ -128,41 +128,41 @@ const listCliProdServ = [
                 nomeProduto: 'Tinta',
                 descricaoProduto: 'Tinta',
                 valorProduto: 70.00,
-                idProduto: 6
+                idProduto: 4
             },
             {
                 nomeProduto: 'Baton vermelho',
                 descricaoProduto: 'Baton vermelho',
-                valorProduto: 70.00,
-                idProduto: 6
-            },
-            {
-                nomeProduto: 'kit salonline',
-                descricaoProduto: 'Shampo, condicionador e mascara nutri',
-                valorProduto: 70.00,
-                idProduto: 6
-            },
-            {
-                nomeProduto: 'queratina novex',
-                descricaoProduto: 'Tratamento reconstrutor Novex ',
-                valorProduto: 70.00,
-                idProduto: 6
-            },
-            {
-                nomeProduto: 'Unhas postiças',
-                descricaoProduto: 'Unhas postiças coloridas',
                 valorProduto: 10.00,
                 idProduto: 7
             },
             {
+                nomeProduto: 'kit salonline',
+                descricaoProduto: 'Shampo, condicionador e mascara nutri',
+                valorProduto: 220.50,
+                idProduto: 12
+            },
+            {
+                nomeProduto: 'queratina novex',
+                descricaoProduto: 'Tratamento reconstrutor Novex ',
+                valorProduto: 25.50,
+                idProduto: 13
+            },
+            {
+                nomeProduto: 'Unhas postiças',
+                descricaoProduto: 'Unhas postiças coloridas',
+                valorProduto: 24.90,
+                idProduto: 17
+            },
+            {
                 nomeProduto: 'Unhas postiças francesinha',
                 descricaoProduto: 'Unhas postiças francesinhas vermelha',
-                valorProduto: 12.00,
-                idProduto: 8
+                valorProduto: 22.90,
+                idProduto: 19
             },
             {
                 nomeProduto: 'Esmalte branco',
-                descricaoProduto: 'Esmalte Mythique, da Chanel.',
+                descricaoProduto: 'Esmalte Risque',
                 valorProduto: 15.00,
                 idProduto: 9
             },
@@ -247,16 +247,16 @@ const listCliProdServ = [
         telefone: new Telefone('(19)','6955-2775'),
         produtosConsumidos: [
             {
-                nomeProduto: 'Shampoo',
-                descricaoProduto: 'Tinta para fingir que a calvice não lhe afeta.',
-                valorProduto: 70.00,
-                idProduto: 6
+                nomeProduto: 'shampoo embelleze',
+                descricaoProduto: 'Condicionador para reconstrução',
+                valorProduto: 22.50,
+                idProduto: 15
             },
             {
-                nomeProduto: 'Shampoo',
-                descricaoProduto: 'Tinta para fingir que a calvice não lhe afeta.',
-                valorProduto: 70.00,
-                idProduto: 6
+                nomeProduto: 'shampoo embelleze',
+                descricaoProduto: 'Condicionador para reconstrução',
+                valorProduto: 22.50,
+                idProduto: 15
             },
         ],
         servicosConsumidos: [
@@ -293,7 +293,7 @@ const listCliProdServ = [
         },
         {
             nomeProduto: 'Baton vermelho',
-            descricaoProduto: 'Baton vermelho Ivete.',
+            descricaoProduto: 'Baton vermelho',
             valorProduto: 10.00,
             idProduto: 7
         },
@@ -353,7 +353,7 @@ const listCliProdServ = [
         dataEmissao:new Date(4,12,2000)
     },
     telefone: new Telefone('(16)','4841-7946'),
-    produtosConsumidos:[
+    servicosConsumidos:[
         {
             nomeServico: 'Corte de cabelo masculino',
             descServico: 'Especializado para masculino',
@@ -387,7 +387,7 @@ const listCliProdServ = [
     produtosConsumidos:[
         {
             nomeProduto: 'Baton vermelho',
-            descricaoProduto: 'Baton vermelho Ivete.',
+            descricaoProduto: 'Baton vermelho',
             valorProduto: 10.00,
             idProduto: 7
         },
@@ -399,19 +399,19 @@ const listCliProdServ = [
         },
         {
             nomeProduto: 'Esmalte branco',
-            descricaoProduto: 'Esmalte Mythique, da Chanel.',
+            descricaoProduto: 'Esmalte Risque',
             valorProduto: 15.00,
             idProduto: 9
         },
         {
             nomeProduto: 'Esmalte azul',
-            descricaoProduto: 'Partiu balada, da Vult.',
+            descricaoProduto: 'Vult.',
             valorProduto: 13.00,
             idProduto: 10
         },
         {
             nomeProduto: 'Esmalte amarelo',
-            descricaoProduto: 'Chihuahua, da Mavala',
+            descricaoProduto: 'Vult',
             valorProduto: 13.50,
             idProduto: 11
         },
@@ -1487,8 +1487,8 @@ const listCliProdServ = [
             idProduto: 2
         },
         {
-            nomeProduto: 'Peruca para calvos',
-            descricaoProduto: 'Peruca para esconder sua calvice.',
+            nomeProduto: 'Peruca',
+            descricaoProduto: 'Lace',
             valorProduto: 100.00,
             idProduto: 3
         },

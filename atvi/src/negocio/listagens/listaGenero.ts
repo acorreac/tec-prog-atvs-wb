@@ -35,41 +35,41 @@ export default class ListaGeneros extends Listagem{
 
         //Masculino
         console.log('*Gênero Masculino*: \n');
-        masculino.forEach(masculino => {
-            console.log(`Nome: ` + masculino.nome + '\n');
-            console.log(`Nome Social: ` + masculino.nomeSocial + '\n');
-            console.log(`Cpf: ` + masculino.getCpf.getValor + '\n');
-            console.log(`Telefone: ` + masculino.getTelefones[0].getTelefone + '\n');
+        masculino.forEach(m => {
+            console.log(`Nome: ` + m.nome + '\n');
+            console.log(`Nome Social: ` + m.nomeSocial + '\n');
+            console.log(`Cpf: ` + m.getCpf.getValor + '\n');
+            console.log(`Telefone: ` + m.getTelefones[0].getTelefone + '\n');
             console.log(`------------------ \n`)
         })
 
         //Feminino
-        console.log('*Gênero Masculino*: \n');
-        masculino.forEach(feminino => {
-            console.log(`Nome: ` + feminino.nome + '\n');
-            console.log(`Nome Social: ` + feminino.nomeSocial + '\n');
-            console.log(`Cpf: ` + feminino.getCpf.getValor + '\n');
-            console.log(`Telefone: ` + feminino.getTelefones[0].getTelefone + '\n');
+        console.log('*Gênero Feminino*: \n');
+        feminino.forEach(f => {
+            console.log(`Nome: ` + f.nome + '\n');
+            console.log(`Nome Social: ` + f.nomeSocial + '\n');
+            console.log(`Cpf: ` + f.getCpf.getValor + '\n');
+            console.log(`Telefone: ` + f.getTelefones[0].getTelefone + '\n');
             console.log(`------------------ \n`)
         })
         
         //Outros
         console.log('*Gênero Outros*: \n');
-        masculino.forEach(outros => {
-            console.log(`Nome: ` + outros.nome + '\n');
-            console.log(`Nome Social: ` + outros.nomeSocial + '\n');
-            console.log(`Cpf: ` + outros.getCpf.getValor + '\n');
-            console.log(`Telefone: ` + outros.getTelefones[0].getTelefone + '\n');
+        outros.forEach(o => {
+            console.log(`Nome: ` + o.nome + '\n');
+            console.log(`Nome Social: ` + o.nomeSocial + '\n');
+            console.log(`Cpf: ` + o.getCpf.getValor + '\n');
+            console.log(`Telefone: ` + o.getTelefones[0].getTelefone + '\n');
             console.log(`------------------ \n`)
         })
 
         //Não Informado
         console.log('*Gênero Não Informado*: \n');
-        naoInformado.forEach(naoInformado => {
-            console.log(`Nome: ` + naoInformado.nome + '\n');
-            console.log(`Nome Social: ` + naoInformado.nomeSocial + '\n');
-            console.log(`Cpf: ` + naoInformado.getCpf.getValor + '\n');
-            console.log(`Telefone: ` + naoInformado.getTelefones[0].getTelefone + '\n');
+        naoInformado.forEach(ni => {
+            console.log(`Nome: ` + ni.nome + '\n');
+            console.log(`Nome Social: ` + ni.nomeSocial + '\n');
+            console.log(`Cpf: ` + ni.getCpf.getValor + '\n');
+            console.log(`Telefone: ` + ni.getTelefones[0].getTelefone + '\n');
             console.log(`------------------ \n`)
         })
         

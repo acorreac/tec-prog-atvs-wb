@@ -27,7 +27,5 @@ export default class DeleteCliente extends Delete {
         console.log(`\n############################# `);
         console.log('Cliente excluído com sucesso!')
         console.log(`############################# \n`);
-
-        throw new Error("");
     }
 }
