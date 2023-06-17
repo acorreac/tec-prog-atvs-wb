@@ -12,7 +12,6 @@ function NavBar() {
         <Nav.Link className='navbar-item' href="/cliente">CLIENTES</Nav.Link>
         <Nav.Link className='navbar-item' href="/produto">PRODUTOS</Nav.Link>
         <Nav.Link className='navbar-item' href="/servico">SERVIÇOS</Nav.Link>
-        <Nav.Link className='navbar-item' href="/consumo">CONSUMO</Nav.Link>
       </Container>
     </Navbar>
   );

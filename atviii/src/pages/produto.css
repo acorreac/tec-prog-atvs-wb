@@ -1,0 +1,54 @@
+.page {
+    min-height: 94.5vh;
+    display: flex;
+    background-color: #f6e0f4;
+}
+
+.adicionar-produto {
+    text-decoration: none;
+    color: #000;
+    background-color: #f57cb5;
+    padding: .3em 1em;
+    border-radius: 10em;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-left: 5em;
+    filter: drop-shadow(3px 5px 3px rgb(101, 18, 66));
+    position: relative;
+    font-size: 1.2em;
+}
+
+.adicionar-produto:hover {
+    background-color: #ae4978;
+}
+
+.produto {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+@media only screen and (max-width: 650px) {
+    .page {
+        min-height: 95vh;
+        display: flex;
+        background-color: #f6e0f4;
+    }
+    .produto {
+        top: 13%;
+        left: 14%;
+    }
+    .adicionar-produto {
+        text-decoration: none;
+        color: #000;
+        background-color: #f57cb5;
+        padding: .3em 1em;
+        border-radius: 10em;
+        font-weight: bold;
+        margin-top: 2em;
+        margin-left: 3em;
+        filter: drop-shadow(3px 5px 3px rgb(101, 18, 66));
+        position: relative;
+        font-size: 1.2em;
+    }
+}

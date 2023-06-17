@@ -12,7 +12,6 @@ import Servico from './pages/Servico';
 import CadastroCliente from './pages/CadastroCliente';
 import CadastroProduto from './pages/CadastroProduto';
 import CadastroServico from './pages/CadastroServico';
-import Consumo from './pages/Consumo';
 
 const router = createBrowserRouter([
   {
@@ -30,10 +29,6 @@ const router = createBrowserRouter([
   {
     path: 'servico',
     element: <Servico />
-  },
-  {
-    path: 'consumo',
-    element: <Consumo />
   },
   {
     path: 'cadastro/cliente',
