@@ -1,0 +1,30 @@
+.titulo-cli {
+    background-color: rgb(245, 157, 198);
+}
+
+.nome {
+    padding: .3em 15em;
+}
+
+.table {
+    margin-top: 18%;
+    margin-left: 36%;
+}
+
+th, tr, td {
+    border: 1px solid black;
+}
+
+.icon {
+    margin-left: 35%;
+}
+
+@media only screen and (max-width: 600px) {
+    .nome {
+        padding: .3em 3em;
+    }
+    .table {
+        margin-top: 42%;
+        margin-left: 27%;
+    }
+}

@@ -1,0 +1,122 @@
+.pages {
+    background-color: #f6e0f4;
+    min-height: 94.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    margin-left: 5%;
+}
+
+.forms-cli {
+    margin-top: 1.5%;
+    margin-left: 25%;
+    font-weight: bold;
+    filter: drop-shadow(3px 5px 3px rgb(101, 18, 66));
+}
+
+.forms-cli2 {
+    background-color: #ffd0df;
+    width: fit-content;
+    padding: .5em 2em;  
+    border-radius: 2em;
+}
+
+.custom-cli, .custom-cli2 {
+    margin-top: .5em;
+}
+
+.custom-cli2 input {
+    width: 7.5em;
+    font-size: larger;
+    margin-top: .4em;
+    height: 1.3em;
+    border-radius: 2em;
+    border: 1px solid #615e5e;
+}
+
+.custom-cli input {
+    width: 30em;
+    margin-top: .4em;
+    font-size: larger;
+    height: 1.5em;
+    border-radius: 2em;
+    border: 1px solid #615e5e;
+}
+
+.gender-section {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+  
+.gender-section label {
+    padding-right: 1em;
+}
+  
+
+.custom-btn {
+    width: 10em;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 40%;
+    margin-bottom: 7%;
+    background-color: #f57cb5;
+    padding: .3em 1em;
+    border-radius: 10em;
+    cursor: pointer;
+}
+
+.required-asterisk {
+    color: red;
+  }
+  
+
+
+@media only screen and (max-width: 650px) {
+    .custom-col input {
+        width: 20em;
+    }
+
+    .forms-cli {
+        margin-top: 1.5%;
+        margin-left: 10%;
+        font-weight: bold;
+        filter: drop-shadow(3px 5px 3px rgb(101, 18, 66));
+    }
+    
+    .forms-cli2 {
+        background-color: #ffd0df;
+        width: fit-content;
+        padding: .5em 1em;  
+        border-radius: 2em;
+    }
+    .gender-section label {
+        margin-right: .3em;
+    }
+    .custom-col, .custom-col2 {
+        margin-top: .5em;
+    }
+    
+    .custom-cli2 input {
+        width: 6em;
+        font-size: larger;
+        margin-top: .4em;
+        height: 1.3em;
+        border-radius: 2em;
+        border: 1px solid #615e5e;
+    }
+    
+    .custom-cli input {
+        width: 18em;
+        margin-top: .4em;
+        font-size: larger;
+        height: 1.5em;
+        border-radius: 2em;
+        border: 1px solid #615e5e;
+    }
+}
+
