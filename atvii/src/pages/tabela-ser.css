@@ -1,0 +1,35 @@
+.titulo-ser {
+    background-color: rgb(245, 157, 198);
+}
+
+.nome-ser {
+    padding: .3em 15em;
+}
+
+.table-ser {
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+th, tr, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: .3em 1em;
+
+}
+
+.icon {
+    margin-left: 35%;
+}
+
+@media only screen and (max-width: 600px) {
+    .nome-ser {
+        padding: .3em 2em;
+    }
+    .table-ser {
+        margin-top: 27%;
+        margin-left: 12%;
+    }
+}
