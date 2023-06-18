@@ -1,0 +1,33 @@
+{
+  "name": "backend-wb",
+  "version": "1.0.0",
+  "description": "Backend da aplicação Agenda WB",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files",
+    "dev": "ts-node-dev -r tsconfig-paths/register --inspect --no-notify --transpile-only --ignore-watch node_modules src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "author": "Aline Costa e Gabriela Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/plugin-proposal-decorators": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.1",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "babel-plugin-transform-typescript-metadata": "^0.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typeorm": "^0.3.16",
+    "typescript": "^5.1.3"
+  }
+}
